@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+  <rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+          xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+          xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+          xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>
+      <Ontology rdf:about="http://cmt">
+        <location>file://datasets/conference/ontologies/cmt.owl</location>
+      </Ontology>
+    </onto1>
+    <onto2>
+      <Ontology rdf:about="http://iasted">
+        <location>file://datasets/conference/ontologies/iasted.owl</location>
+      </Ontology>
+    </onto2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_state'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.915</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_restaurant'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.947</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_restaurant'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.917</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Co-author'/>
+        <entity2 rdf:resource='http://iasted#Author'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.94</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_building'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.95</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_airport'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.935</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Person'/>
+        <entity2 rdf:resource='http://iasted#Person'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_state'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.932</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_airport'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.945</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_days'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.96</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#One_conference_day'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.93</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_hotel'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.933</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Document'/>
+        <entity2 rdf:resource='http://iasted#Payment_document'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.939</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Review'/>
+        <entity2 rdf:resource='http://iasted#Review'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Conference'/>
+        <entity2 rdf:resource='http://iasted#Conference_building'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.91</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_hall'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.918</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Author'/>
+        <entity2 rdf:resource='http://iasted#Author'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Reviewer'/>
+        <entity2 rdf:resource='http://iasted#Reviewer'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#ConferenceChair'/>
+        <entity2 rdf:resource='http://iasted#Conference_hotel'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.941</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://cmt#Document'/>
+        <entity2 rdf:resource='http://iasted#Document'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+  </Alignment>
+  </rdf:RDF>

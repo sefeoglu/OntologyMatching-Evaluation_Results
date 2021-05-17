@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+  <rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+          xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+          xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+          xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>**</type>
+    <onto1>
+      <Ontology rdf:about="http://edas">
+        <location>file://datasets/conference/ontologies/edas.owl</location>
+      </Ontology>
+    </onto1>
+    <onto2>
+      <Ontology rdf:about="http://iasted">
+        <location>file://datasets/conference/ontologies/iasted.owl</location>
+      </Ontology>
+    </onto2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Sponsorship'/>
+        <entity2 rdf:resource='http://iasted#Sponsor'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.954</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Attendee'/>
+        <entity2 rdf:resource='http://iasted#Listener'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.908</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Document'/>
+        <entity2 rdf:resource='http://iasted#Document'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#SessionChair'/>
+        <entity2 rdf:resource='http://iasted#Session_chair'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Place'/>
+        <entity2 rdf:resource='http://iasted#Place'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#CoffeeBreak'/>
+        <entity2 rdf:resource='http://iasted#Coffee_break'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#SlideSet'/>
+        <entity2 rdf:resource='http://iasted#Transparency'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.953</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Reception'/>
+        <entity2 rdf:resource='http://iasted#Coctail_reception'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.929</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#ConferenceVenuePlace'/>
+        <entity2 rdf:resource='http://iasted#Conference_hall'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.905</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Reviewer'/>
+        <entity2 rdf:resource='http://iasted#Reviewer'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Review'/>
+        <entity2 rdf:resource='http://iasted#Review'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Person'/>
+        <entity2 rdf:resource='http://iasted#Person'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#WelcomeTalk'/>
+        <entity2 rdf:resource='http://iasted#Welcome_address'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.944</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#ConferenceEvent'/>
+        <entity2 rdf:resource='http://iasted#Conference_activity'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.947</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Country'/>
+        <entity2 rdf:resource='http://iasted#State'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.929</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource='http://edas#Author'/>
+        <entity2 rdf:resource='http://iasted#Author'/>
+        <relation>=</relation>
+        <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+      </Cell>
+    </map>
+  </Alignment>
+  </rdf:RDF>

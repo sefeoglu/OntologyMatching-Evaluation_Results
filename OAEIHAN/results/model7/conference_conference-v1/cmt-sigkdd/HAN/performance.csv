@@ -1,0 +1,5 @@
+Type,Precision (P),Recall (R),Residual Recall (R+),F1,"# of TP","# of FP","# of FN","# of Correspondences",Time
+ALL,0.5333333333333333,0.6666666666666666,0.0,0.5925925925925926,8,7,4,15,0
+CLASSES,0.5333333333333333,0.8,0.0,0.64,8,7,2,15,-
+PROPERTIES,0.0,0.0,0.0,0.0,0,0,2,0,-
+INSTANCES,0.0,0.0,0.0,0.0,0,0,0,0,-
